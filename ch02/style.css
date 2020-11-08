@@ -201,6 +201,35 @@ h2.thisMonth {
   border-bottom: none;
 }
 
+.bdr-right {
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+.bdr-bottom {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+/* Leverage selectors for border colors.
+ * Be sure to apply your rules in this order.
+ *
+ */
+
+.bg-main.bdr {
+  border-color: #aaa;
+}
+
+.bg-secondary.bdr {
+  border-color: #999;
+}
+
+.bg-tertiary.bdr {
+  border-color: #eee;
+}
+
 @media ( min-width: 1220px ) {
   #mainNav {
     position: absolute;
