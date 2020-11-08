@@ -230,6 +230,28 @@ h2.thisMonth {
   border-color: #eee;
 }
 
+/*rounded corners*/
+.rnd {
+  border-radius: 5px;
+}
+
+/*only two corners*/
+.rnd-top{
+  border-radius: 5px 5px 0 0;
+}
+
+.rnd-left{
+  border-radius: 5px 0 0 5px;
+}
+
+.rnd-right{
+  border-radius: 0 5px 5px 0;
+}
+
+.rnd-bottom{
+  border-radius: 0 0 5px 5px;
+}
+
 @media ( min-width: 1220px ) {
   #mainNav {
     position: absolute;
