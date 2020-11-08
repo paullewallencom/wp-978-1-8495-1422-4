@@ -38,7 +38,8 @@ h2, h4, h6 {
 }
 
 a {
-  font-family: Helvetica, Arial, sans-serif; font-size: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
   color: #666;
   font-weight: 100;
   text-decoration: none;
@@ -47,7 +48,7 @@ a {
 pre, code {
   font-family: Courier, monospace;
   font-size: 100%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -89,7 +90,7 @@ header {
 }
 
 #mainNav {
-  position:absolute;
+  position: absolute;
   top: 110px;
   width: 100%;
 }
@@ -105,7 +106,7 @@ header {
 
 #across {
   margin: 0;
-  width:100%;
+  width: 100%;
 }/*for a stretched bottom only*/
 
 h2.thisMonth {
@@ -126,7 +127,7 @@ h2.thisMonth {
 }
 
 .sidebar h2 {
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 /* Text meant only for screen readers */
@@ -135,9 +136,39 @@ h2.thisMonth {
   left: -5000em;
 }
 
+/*------------------REUSABLE GRAPHIC TREATMENTS -------------------*/
+/*main background colorscheme*/
+.bg-main {
+  background-color: #222;
+}
+
+.bg-secondary {
+  background-color: #666;
+}
+
+.bg-tertiary {
+  background-color: #999;
+}
+
+.bg-light1 {
+  background-color: #eee;
+}
+
+.bg-light2 {
+  background-color: #ddd;
+}
+
+.bg-dark1 {
+  background-color: #000;
+}
+
+.bg-dark2 {
+  background-color: #444;
+}
+
 @media ( min-width: 1220px ) {
   #mainNav {
-    position:absolute;
+    position: absolute;
     top: 110px;
     width: 1100px;
   }
@@ -146,7 +177,7 @@ h2.thisMonth {
 @media ( max-width: 1024px ) {
   /*for netbook/tablet screens*/
   #mainNav {
-    position:absolute;
+    position: absolute;
     top: 110px;
     width: 950px;
   }
@@ -158,13 +189,13 @@ h2.thisMonth {
   }
 
   #mainNav {
-    top:100px;
+    top: 100px;
     width: 300px;
   }
 
   #mainNav li {
-    float:none;
-    clear:both;
+    float: none;
+    clear: both;
   }
 
   #container2 {
@@ -177,24 +208,24 @@ h2.thisMonth {
   }
 
   .home article.post .entry-content, article.post .entry-meta, article.post a.more {
-    display:none;
+    display: none;
   }
 
   .content.left.two-thirds, .sidebar.right.third {
-    float:none;
-    clear:both;
+    float: none;
+    clear: both;
     margin: 0 auto;
-    width:98%;
+    width: 98%;
   }
 
   .sidebar div {
     width: 30%;
     margin: 1.2%;
-    float:left;
+    float: left;
   }
 
   .home .content.left.two-thirds {
-    margin-top:180px;
+    margin-top: 180px;
   }
 
 }
@@ -209,13 +240,13 @@ h2.thisMonth {
   }
 
   #mainNav {
-    top:70px;
+    top: 70px;
     width: 220px;
   }
 
   #mainNav li {
-    float:none;
-    clear:both;
+    float: none;
+    clear: both;
   }
 
   #mainNav li a {
@@ -230,15 +261,15 @@ h2.thisMonth {
   }
 
   .home article.post .entry-content, article.post .entry-meta, article.post a.more {
-    display:none;
+    display: none;
   }
 
   .home article.post a.comments {
-    position:absolute;
+    position: absolute;
     margin-top: -55px;
   }
   .content.left.two-thirds {
-    margin-top:150px;
+    margin-top: 150px;
   }
 
   .soc {
