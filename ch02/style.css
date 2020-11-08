@@ -7,12 +7,38 @@
  *
  */
 
-body { font-family: 'Trebuchet MS', Helvetica, Arial, Verdana, sans-serif; }
+body {
+  font-family: 'Trebuchet MS', Helvetica, Arial, Verdana, sans-serif;
+  font-size: 0.9em;
+  color: #333;
+}
 
-h1, h3, h5 { font-family: Helvetica, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+  margin: 20px 0 10px 0;
+}
 
-h2, h4, h6 { font-family: 'Helvetica Neue', Helvetica, 'Arial Condensed', Arial, sans-serif; }
+h1, h3, h5 {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 120%;
+  color: #666;
+}
 
-a { font-family: Helvetica, Arial, sans-serif; }
+h2, h4, h6 {
+  font-family: 'Helvetica Neue', Helvetica, 'Arial Condensed', Arial, sans-serif;
+  line-height: 110%;
+  color: #999;
+}
 
-pre, code { font-family: Courier, monospace; }
+a {
+  font-family: Helvetica, Arial, sans-serif; font-size: 100%;
+  color: #666;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+pre, code {
+  font-family: Courier, monospace;
+  font-size: 100%;
+  margin-bottom:10px;
+}
