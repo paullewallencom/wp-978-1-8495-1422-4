@@ -178,6 +178,29 @@ h2.thisMonth {
   background: linear-gradient(top, #ddd, #999);
 }
 
+/*borders*/
+.bdr {
+  border: 1px solid;
+}
+
+/*apply thickness*/
+.bdr-2px {
+  border: 2px solid;
+}
+
+/*pick a side*/
+.bdr-top {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.bdr-left {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
 @media ( min-width: 1220px ) {
   #mainNav {
     position: absolute;
