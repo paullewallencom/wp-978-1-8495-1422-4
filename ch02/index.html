@@ -1,46 +1,163 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title> </title>
-    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title> </title>
+  <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+</head>
+
+<body class="bg-main home">
   <!-- “ | ’ | ” -->
-    <div id="container"><!--layout container-->
-      <header>
-        <em>Header:</em> background image and text elements for header will go inside this div.
-      </header><!--//header-->
-      <!-- Begin #container2 this holds the content and sidebars-->
-      <div id="container2">
-        <!-- Begin first section holds the left content columns-->
-        <section>
-          <!-- Begin content -->
-          <article>
-            <em>Main Content:</em> Post content will go here inside this div.
-          </article>
-        </section>
-        <!-- Second section holds the right columns-->
-        <section>
-          <!-- #left sidebar -->
-          <aside class="sidebar1">
-            <em>Left Side Bar:</em> Will contain WordPress content related links
-          </aside><!--//.sidebar1  -->
-          <!-- #right sidebar -->
-          <aside class="sidebar2">
-            <em>Right Side Bar:</em> This will include additional ads, or non-content relevant items.
-          </aside><!--//.sidebar2-->
-        </section>
-      </div><!--//#container2-->
-      <nav id="mainNav">
-        <em>Top Nav:</em> For reading through straight text, it's best to have links at bottom (css will place it up top, for visual ease of use)
-      </nav><!--//mainNav-->
-    </div><!--//container-->
+  <div id="container">
+    <header class="">
+      <hgroup class="screen-reader-text">
+        <h1>OpenSource</h1>
+        <h2>Online Magazine</h2>
+        <p><em>Using Open Source for work and play</em></p>
+      </hgroup>
+    </header>
+    <div id="container2" class="bdr bdr-top">
+      <div class="content left two-thirds">
+        <h2 class="thisMonth embossed" style="color:#fff;">This Month:</h2>
+        <article class="post">
+          <h2 class=""><a href="#">Really Long Article Title Name The More Text The Better Cause You Never Know</a></h2>
+          <p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
+          <div class="entry-content">
+            <!--//post-->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed a eros nec orci volutpat vestibulum. Ut
+              pellentesque sagittis metus. In euismod tellus id ante.</p>
+            <blockquote class="left margin-right third bg-dark2 img-quote-dark bdr rnd rnd-right shdw-centered">Lorem
+              ipsum dolor sit amet, consectetuer adipiscing elit.</blockquote>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed a eros nec orci volutpat vestibulum. Ut
+              pellentesque sagittis metus. In euismod tellus id ante.</p>
+          </div>
+          <!--//.entry-content-->
+          <p class="left"><a class="more" href="#">Read more &raquo;</a></p>
+          <p class="right"><a class="comments" href="#">150</a></p>
+          <div class="push"></div>
+        </article>
+        <article class="post">
+          <h2 class=""><a href="#">Really Long Article Title Name The More Text The Better Cause You Never Know</a></h2>
+          <p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
+          <div class="entry-content">
+            <!--//post-->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed a eros nec orci volutpat vestibulum. Ut
+              pellentesque sagittis metus. In euismod tellus id ante.</p>
+          </div>
+          <!--//.entry-content-->
+          <p class="left"><a class="more" href="#">Read more &raquo;</a></p>
+          <p class="right"><a class="comments" href="#">150</a></p>
+          <div class="push"></div>
+        </article>
+        <article class="post right half">
+          <h2 class=""><a href="#">Really Long Article Title Name The More Text The Better Cause You Never Know</a></h2>
+          <p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
+          <div class="entry-content">
+            <!--//post-->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed a eros nec orci volutpat vestibulum. Ut
+              pellentesque sagittis metus. In euismod tellus id ante.</p>
+          </div>
+          <!--//.entry-content-->
+          <p class="left"><a class="more" href="#">Read more &raquo;</a></p>
+          <p class="right"><a class="comments" href="#">850</a></p>
+          <div class="push"></div>
+        </article>
+        <article class="post left half">
+          <h2 class=""><a href="#">Really Long Article Title Name The More Text The Better Cause You Never Know</a></h2>
+          <p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
+          <div class="entry-content">
+            <!--//post-->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed a eros nec orci volutpat vestibulum. Ut
+              pellentesque sagittis metus. In euismod tellus id ante.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed a eros nec orci volutpat vestibulum. Ut
+              pellentesque sagittis metus. In euismod tellus id ante.</p>
+          </div>
+          <!--//.entry-content-->
+          <p class="left"><a class="more" href="#">Read more &raquo;</a></p>
+          <p class="right"><a class="comments" href="#">850</a></p>
+          <div class="push"></div>
+        </article>
+        <div class="push"></div>
+      </div>
+      <!--content-->
+      <!-- #left sidebar -->
+      <aside class="sidebar right third">
+        <div class="bdr grd-vt-main rnd shdw-centered">
+          <h2 class="features embossed">Features:</h2>
+          <ul class="tocNav">
+            <li><a href="#">Article Name 01 Lorem ipsum dolor sit amet consectetuer adipiscing elit</a></li>
+            <li><a href="#">Article Name 02 Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Article Name 03 Lorem ipsum</a></li>
+          </ul>
+        </div>
+        <div class="bdr grd-vt-secondary rnd shdw-centered">
+          <h2 class="columns embossed">Columns:</h2>
+          <ul class="tocNav">
+            <li><a href="#">Name of Category 01 Lorem ipsum (#)</a></li>
+            <li><a href="#">Name of Category 02 Lorem (#)</a></li>
+            <li><a href="#">Name of Category 03 Lorem ipsum dolor (#)</a></li>
+          </ul>
+        </div>
+        <div class="bdr bg-light2 rnd shdw-centered">
+          <h2 class="pastIssues embossed">Past Issues:</h2>
+          <ul class="tocNav">
+            <li><a href="#">Archive Link year/month 01</a></li>
+            <li><a href="#">Archive Link year/month 02</a></li>
+            <li><a href="#">Archive Link year/month 03</a></li>
+          </ul>
+        </div>
+        <div class="push"></div>
+      </aside>
+      <!--//.sidebar1  -->
+      <div class="push"></div>
+    </div>
+    <!--//#container2-->
+    <nav id="mainNav" class="grd-vt-tertiary shdw-centered">
+      <h2 class="screen-reader-text">Main Navigation:</h2>
+      <ul class="sfTab">
+        <li class="current_page_item"><a href="#">The Zine</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <!--//top_navlist-->
+  </div>
+  <!--//#container-->
+  <div id="across">
     <footer>
-      <em>Footer:</em> Useful information and quick links for CSS design users who've had to scroll to the bottom plus site information and copyright will go here
+      <h2 class="screen-reader-text">Footer Information:</h2>
+      <aside class="general left two-thirds">
+        <h3>Socialize</h3>
+        <ul class="grid4up">
+          <li><a href="#" class="soc facebook">facebook</a></li>
+          <li><a href="#" class="soc twitter">twitter</a></li>
+          <li><a href="#" class="soc rss">rss</a></li>
+          <li><a href="#" class="soc google">gmail</a></li>
+        </ul>
+        <div class="push"></div>
+        <h3>About us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore
+          magna aliqua. Ut enim ad minim veniam.</p>
+      </aside>
+      <aside class="navigate right third">
+        <h3>Navigate</h3>
+        <ul>
+          <li><a href="#" target="" title="">title to link01</a> </li>
+          <li><a href="#" target="" title="">another link02</a></li>
+          <li><a href="#" target="" title="">a different title: link03</a></li>
+          <li><a href="#" target="" title="">yet another link04</a></li>
+        </ul>
+      </aside>
+      <div class="push"></div>
     </footer>
-  </body>
+  </div>
+  <!--//#across-->
+</body>
+
 </html>
