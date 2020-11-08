@@ -289,6 +289,31 @@ article h2 {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
+/*reusable image backgrounds*/
+.img-quote-light {
+  background: url(images/pngs/r-quotes-light.png) no-repeat -10px -7px;
+  text-indent: 55px;
+}
+
+.img-quote-dark {
+  background-image: url(images/pngs/r-quotes-dark.png);
+  background-repeat: no-repeat;
+  background-position: -10px -7px;
+  text-indent: 55px;
+}
+
+.img-bottom-shadow {
+  background: url(images/pngs/bot-r-shadow.png) no-repeat 50% bottom;
+}
+
+.img-top-shadow {
+  background: url(images/pngs/top-r-shadow.png) no-repeat 50% 0;
+}
+
+.img-line-hz {
+  background: url(images/pngs/highlight-border.png) repeat-x left bottom;
+}
+
 @media ( min-width: 1220px ) {
   #mainNav {
     position: absolute;
