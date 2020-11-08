@@ -166,6 +166,18 @@ h2.thisMonth {
   background-color: #444;
 }
 
+.grd-vt-main {
+  background: linear-gradient(top, #333, #000);
+}
+
+.grd-vt-secondary {
+  background: linear-gradient(top, #555, #222);
+}
+
+.grd-vt-tertiary {
+  background: linear-gradient(top, #ddd, #999);
+}
+
 @media ( min-width: 1220px ) {
   #mainNav {
     position: absolute;
