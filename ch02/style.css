@@ -144,7 +144,12 @@ h2.thisMonth {
 }
 
 @media ( max-width: 1024px ) {
-  //
+  /*for netbook/tablet screens*/
+  #mainNav {
+    position:absolute;
+    top: 110px;
+    width: 950px;
+  }
 }
 
 @media ( min-width: 480px ) and ( max-width: 800px ) {
