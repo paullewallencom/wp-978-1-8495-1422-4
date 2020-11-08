@@ -1,0 +1,11 @@
+/*------------------TYPOGRAPHY -------------------*/
+
+/*
+ * Set font stacks here
+ * Assign default colors only.
+ * Otherwise color is handled at BOTTOM of sheet.
+ *
+ */
+
+body { font-family: 'Trebuchet MS', Helvetica, Arial, Verdana, sans-serif; }
+h1, h3, h5 { font-family: Helvetica, Arial, sans-serif; }
