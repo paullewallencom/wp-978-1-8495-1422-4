@@ -87,6 +87,7 @@ p {
 /*------------------ STANDARD STYLING -------------------*/
 header {
   height: 110px;
+  background: url(images/osmag-logos.png) no-repeat 0 0;
 }
 
 #mainNav {
@@ -104,13 +105,36 @@ header {
   color: #036;
 }
 
+#mainNav li a:hover {
+  color:#088fff;
+}
+
 #across {
   margin: 0;
   width: 100%;
+  border-top: 2px solid #444;
+  background: #000
 }/*for a stretched bottom only*/
+
+#container {
+  background: url(images/osmag-container-bg.png) no-repeat 50%-30px;
+}
+
+#container2 {
+  background: url(images/osmag-earth.jpg) no-repeat 50% 0;
+}
 
 h2.thisMonth {
   font-size: 260%;
+  color: #fff;
+}
+
+h2.pastIssues {
+  color:#222;
+}
+
+article h2 {
+  background: url(images/pngs/highlight-border.png) repeat-x 0 bottom;
 }
 
 .content {
@@ -128,6 +152,10 @@ h2.thisMonth {
 
 .sidebar h2 {
   margin-left: 20px;
+}
+
+.comments{
+  background: url(images/pngs/comments-icon.png) no-repeat 0 0;
 }
 
 /* Text meant only for screen readers */
