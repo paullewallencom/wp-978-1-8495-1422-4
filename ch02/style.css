@@ -334,6 +334,7 @@ article h2 {
 @media ( min-width: 480px ) and ( max-width: 800px ) {
   header {
     height: 100px;
+    background-position: 0 -220px;
   }
 
   #mainNav {
@@ -344,6 +345,7 @@ article h2 {
   #mainNav li {
     float: none;
     clear: both;
+    background: url(images/pngs/highlight-border.png) repeat-x 0 bottom;
   }
 
   #container2 {
