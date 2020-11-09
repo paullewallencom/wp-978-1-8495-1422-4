@@ -387,6 +387,7 @@ article h2 {
 @media only screen and ( min-width: 320px ) and ( max-width: 480px ) {
   header {
     height: 70px;
+    background-position: 0 -425px;
   }
 
   #mainNav {
@@ -397,6 +398,7 @@ article h2 {
   #mainNav li {
     float: none;
     clear: both;
+    background: url(images/pngs/highlight-border.png) repeat-x 0 bottom;
   }
 
   #mainNav li a {
