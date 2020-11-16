@@ -29,6 +29,7 @@
         </footer>
     </div>
     <!--//#across-->
+    <?php wp_footer(); ?>
 </body>
 
 </html>

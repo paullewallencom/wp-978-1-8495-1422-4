@@ -31,7 +31,7 @@
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <link media="all" rel="stylesheet" type="text/css" href="css/style-ie.css" />
 <![endif]-->
-
+<?php wp_head(); ?>
 </head>
 
 <body <?php body_class($class); ?>>
