@@ -58,7 +58,9 @@
                             <?php the_title();?>
                         </a>
                     </h2>
-                    <p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
+                    <p class="entry-meta">by <?php the_author_meta('first_name'); ?>
+                        <?php the_author_meta('last_name'); ?> in <?php the_category(", "); ?>
+                    </p>
 
                     <div class="entry-content">
                         <!--//post-->
@@ -70,7 +72,7 @@
                     <p class="right"><a class="comments" href="#">150</a></p>
                     <div class="push"></div>
                 </article>
-                
+
                 <?php endwhile; ?>
                 <?php else : ?>
                 <h2 class="center">Not Found</h2>
