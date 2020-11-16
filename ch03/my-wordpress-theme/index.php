@@ -34,7 +34,7 @@
 
 </head>
 
-<body class="bg-main home">
+<body <?php body_class($class); ?>>
     <div id="container">
         <header class="">
             <hgroup class="screen-reader-text">
@@ -52,7 +52,7 @@
                 <?php if (have_posts()) :?>
                 <?php while (have_posts()) : the_post();?>
                 
-                <article class="post">
+                <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
                     <h2 class="">
                         <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
                             <?php the_title();?>
@@ -80,7 +80,7 @@
                 <?php get_search_form(); ?>
                 <?php endif; ?>
 
-                <article class="post">
+                <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
                     <h2 class=""><a href="#">Really Long Article Title Name The More Text The Better Cause You Never Know</a></h2>
                     <p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
 
@@ -95,7 +95,7 @@
                     <div class="push"></div>
                 </article>
 
-                <article class="post right half">
+                <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
                     <h2 class=""><a href="#">Really Long Article Title Name The More Text The Better Cause You Never Know</a></h2>
                     <p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
 
@@ -113,7 +113,7 @@
                     <div class="push"></div>
                 </article>
 
-                <article class="post left half">
+                <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
                     <h2 class=""><a href="#">Really Long Article Title Name The More Text The Better Cause You Never Know</a></h2>
                     <p class="entry-meta">by Author Name for <a href="#">Column Type</a></p>
 
