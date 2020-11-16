@@ -107,7 +107,9 @@
                     </div>
                     <!--//.entry-content-->
                     <p class="left"><a class="more" href="#">Read more &raquo;</a></p>
-                    <p class="right"><a class="comments" href="#">850</a></p>
+                    <p class='right'>
+                        <a class='comments-count' href='<?php the_permalink() ?>'><?php comments_number('0', '1', '%')?></a>
+                    </p>
                     <div class="push"></div>
                 </article>
 
@@ -125,7 +127,9 @@
                     </div>
                     <!--//.entry-content-->
                     <p class="left"><a class="more" href="#">Read more &raquo;</a></p>
-                    <p class="right"><a class="comments" href="#">850</a></p>
+                    <p class='right'>
+                        <a class='comments-count' href='<?php the_permalink() ?>'><?php comments_number('0', '1', '%')?></a>
+                    </p>
                     <div class="push"></div>
                 </article>
 
