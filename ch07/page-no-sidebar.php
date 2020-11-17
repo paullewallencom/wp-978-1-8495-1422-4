@@ -1,14 +1,22 @@
+<?php
+    /*
+       Template Name: Full width page without sidebar
+    */
+?>
+
 <?php get_header(); ?>
 
 <div id="container2" class="bdr bdr-top">
 
-<div class="content left two-thirds">
+<div class="content left full">
 
 <?php if (have_posts()) :?>
 	<?php while (have_posts()) : the_post();?> 
 
-	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+    <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+    <?php if ( !is_front_page () ) { ?>
 		<h2 class="post-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title();?></a></h2>
+    <?php } ?>
 
 		<div class="entry-content"><!--//post-->
 		<?php if ( has_post_thumbnail() ) {
@@ -30,8 +38,6 @@
 
 <div class="push"></div>
 </div><!--content-->
-
-<?php get_sidebar(); ?>
 
 <div class="push"></div>
 
