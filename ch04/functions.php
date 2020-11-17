@@ -34,4 +34,5 @@
           );
       }
       add_action('init', 'osmag_widgets_init');
+      add_theme_support( 'post-thumbnails' );
 ?>

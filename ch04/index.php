@@ -13,6 +13,11 @@
 		<p class="entry-meta">by <?php the_author_meta('first_name'); ?> <?php the_author_meta('last_name'); ?> in <?php the_category(", ") ?></p>
 
 		<div class="entry-content"><!--//post-->
+		<?php if ( has_post_thumbnail() )
+			{
+        		the_post_thumbnail('large');
+			}
+		?>
 			<?php if ( has_post_thumbnail() ) {
 				the_post_thumbnail('large');
 			} ?>
