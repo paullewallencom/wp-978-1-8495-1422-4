@@ -11,10 +11,10 @@
 <link rel="apple-touch-icon" sizes="72x72" href="images/pngs/apple-touch-icon-72x72.png"/>
 <link rel="apple-touch-icon" sizes="114x114" href="images/pngs/apple-touch-icon-114x114.png"/>
 
-<meta name="description" content="Description of content that contains top keyword phrases"></meta>
-<meta name="keywords" content="Key words and phrases, comma separated, not directly used in content - google ignores this tag but used in other engines as a fall back"></meta>
-
-<title>Open Source Online Magazine</title>
+<title>
+    <?php wp_title('|','true','right'); ?>
+    <?php bloginfo('name'); ?>
+</title>
 
 <!--//style sheets-->
 <link media="all" rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
