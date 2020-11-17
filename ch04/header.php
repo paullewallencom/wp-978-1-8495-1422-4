@@ -42,10 +42,8 @@
 
 <nav id="mainNav" class="grd-vt-tertiary shdw-centered">
     <h2 class="screen-reader-text">Main Navigation:</h2>
-        <ul class="sfTab">
-            <li class="current_page_item"><a href="#">The Zine</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Contact</a></li>
-</ul>
+        <?php wp_nav_menu(
+          array( 'theme_location' => 'header-menu',
+          'container_class' => 'sfTab' ) );
+        ?>
 </nav><!--//top_navlist-->
