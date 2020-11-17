@@ -36,4 +36,10 @@ function osmag_widgets_init() {
 add_action('init', 'osmag_widgets_init');
 // featured image support
 add_theme_support( 'post-thumbnails' );
+
+function add_theme_customizer( $wp_customize )
+{
+}
+add_action( 'customize_register', ' add_theme_customizer');
+
 ?>

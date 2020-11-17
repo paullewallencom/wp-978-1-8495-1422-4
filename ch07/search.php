@@ -39,7 +39,7 @@
                         </a>
                     </li>
                 </ul>
-            <?php endwhile;   ?>
+            =<?php endwhile;   ?>
 
 <?php endif; ?>
 
