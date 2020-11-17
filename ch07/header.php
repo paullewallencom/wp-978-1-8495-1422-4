@@ -36,6 +36,13 @@
 <body <?php body_class($class); ?>>
 <div id="container">
 <header class="">
+<a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name');
+    ?>">
+    <img 
+      src="<?php bloginfo('stylesheet_directory')?>/images/osmag-logos.png" 
+      alt="<?php bloginfo('name')?> - logo" 
+      title="Logo - click for home page" />
+</a>
 <hgroup class="screen-reader-text">
     <h1 id="site-title"><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
     <h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
