@@ -13,11 +13,6 @@
 		<p class="entry-meta">by <?php the_author_meta('first_name'); ?> <?php the_author_meta('last_name'); ?> in <?php the_category(", ") ?></p>
 
 		<div class="entry-content"><!--//post-->
-		<?php if ( has_post_thumbnail() )
-			{
-        		the_post_thumbnail('large');
-			}
-		?>
 			<?php if ( has_post_thumbnail() ) {
 				the_post_thumbnail('large');
 			} ?>
@@ -25,7 +20,7 @@
 		</div><!--//.entry-content-->
 
 		<p class="left"><a class="more" href="<?php the_permalink(); ?>">Read more &raquo;</a></p>
-		<p class="right"><a class="comments-count" href="<?php the_permalink(); ?>"><?php comments_number('0', '1', '%'); ?></a></p>
+		<p class="right"><a class="comments-count" href="<?php the_permalink(); ?>"><?php comments_number('0', '1', '%') ?></a></p>
 		<div class="push"></div>
 		
 	</article>

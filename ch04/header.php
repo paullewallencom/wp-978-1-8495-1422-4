@@ -32,18 +32,13 @@
 <body <?php body_class($class); ?>>
 <div id="container">
 <header class="">
-    <hgroup class="screen-reader-text">
-        <h1 id="site-title">
-            <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
-        </h1>
-        <h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+<hgroup class="screen-reader-text">
+    <h1 id="site-title"><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
+    <h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
     </hgroup>
 </header>
 
 <nav id="mainNav" class="grd-vt-tertiary shdw-centered">
     <h2 class="screen-reader-text">Main Navigation:</h2>
-        <?php wp_nav_menu(
-          array( 'theme_location' => 'header-menu',
-          'container_class' => 'sfTab' ) );
-        ?>
+        <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'sfTab' ) ); ?>
 </nav><!--//top_navlist-->
