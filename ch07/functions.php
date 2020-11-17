@@ -39,6 +39,17 @@ add_theme_support( 'post-thumbnails' );
 
 function add_theme_customizer( $wp_customize )
 {
+  // SETTINGS
+  $wp_customize->add_setting( 'content_link_color', array(
+    'default' => '#088fff',
+    'transport' => 'refresh',
+    ) );
+  // CONTROLS
+  $wp_customize->add_control( 
+    new WP_Customize_Color_Control( $wp_customize, 'content_link_color', array(
+    'label' => 'Content Link Color',
+    'section' => 'colors',
+    ) ) );
 }
 add_action( 'customize_register', ' add_theme_customizer');
 
