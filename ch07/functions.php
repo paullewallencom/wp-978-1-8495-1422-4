@@ -51,6 +51,18 @@ function add_theme_customizer( $wp_customize )
     'section' => 'colors',
     ) ) );
 }
+
 add_action( 'customize_register', ' add_theme_customizer');
 
+function theme_customize_css()
+{
+  ?>
+    <style type="text/css">
+      a { color:<?php echo get_theme_mod( 'content_link_color' ); ?>; }
+    </style>
+  <?php
+}
+add_action( 'wp_head', 'theme_customize_css');
+
 ?>
+
