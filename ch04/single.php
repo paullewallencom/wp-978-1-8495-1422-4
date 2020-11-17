@@ -15,7 +15,7 @@
 		<div class="entry-content"><!--//post-->
 		<?php if ( has_post_thumbnail() )
 			{
-        		the_post_thumbnail('medium');
+        		the_post_thumbnail('large');
 			}
 		?>
 			<?php if ( has_post_thumbnail() ) {
